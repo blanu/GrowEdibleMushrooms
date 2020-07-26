@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TutorialsView.swift
 //  GrowEdibleMushrooms
 //
 //  Created by Dr. Brandon Wiley on 7/26/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TutorialsView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TutorialsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TutorialsView()
     }
 }

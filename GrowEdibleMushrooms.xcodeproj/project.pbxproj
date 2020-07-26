@@ -10,12 +10,19 @@
 		CA2533D524CE10290070CD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533D424CE10290070CD15 /* AppDelegate.swift */; };
 		CA2533D724CE10290070CD15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533D624CE10290070CD15 /* SceneDelegate.swift */; };
 		CA2533DA24CE10290070CD15 /* GrowEdibleMushrooms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA2533D824CE10290070CD15 /* GrowEdibleMushrooms.xcdatamodeld */; };
-		CA2533DC24CE10290070CD15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533DB24CE10290070CD15 /* ContentView.swift */; };
+		CA2533DC24CE10290070CD15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533DB24CE10290070CD15 /* HomeView.swift */; };
 		CA2533DE24CE102B0070CD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2533DD24CE102B0070CD15 /* Assets.xcassets */; };
 		CA2533E124CE102B0070CD15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2533E024CE102B0070CD15 /* Preview Assets.xcassets */; };
 		CA2533E424CE102B0070CD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2533E224CE102B0070CD15 /* LaunchScreen.storyboard */; };
 		CA2533EF24CE102B0070CD15 /* GrowEdibleMushroomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533EE24CE102B0070CD15 /* GrowEdibleMushroomsTests.swift */; };
 		CA2533FA24CE102B0070CD15 /* GrowEdibleMushroomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2533F924CE102B0070CD15 /* GrowEdibleMushroomsUITests.swift */; };
+		CAC7D57424CE203400B3FBEE /* GrowManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC7D57324CE203400B3FBEE /* GrowManagementView.swift */; };
+		CAC7D57624CE20CD00B3FBEE /* Grow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC7D57524CE20CD00B3FBEE /* Grow.swift */; };
+		CAE5247E24CE288D0087D228 /* GrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5247D24CE288D0087D228 /* GrowView.swift */; };
+		CAE5248224CE29BC0087D228 /* TutorialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5248124CE29BC0087D228 /* TutorialsView.swift */; };
+		CAE5248424CE29CA0087D228 /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5248324CE29CA0087D228 /* EquipmentView.swift */; };
+		CAE5248824CE4C480087D228 /* GrowStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5248724CE4C480087D228 /* GrowStore.swift */; };
+		CAE5248A24CE4DA40087D228 /* GrowEdibleMushroomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5248924CE4DA40087D228 /* GrowEdibleMushroomsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,7 @@
 		CA2533D424CE10290070CD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA2533D624CE10290070CD15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA2533D924CE10290070CD15 /* GrowEdibleMushrooms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrowEdibleMushrooms.xcdatamodel; sourceTree = "<group>"; };
-		CA2533DB24CE10290070CD15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA2533DB24CE10290070CD15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CA2533DD24CE102B0070CD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2533E024CE102B0070CD15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA2533E324CE102B0070CD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,14 @@
 		CA2533F524CE102B0070CD15 /* GrowEdibleMushroomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowEdibleMushroomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2533F924CE102B0070CD15 /* GrowEdibleMushroomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowEdibleMushroomsUITests.swift; sourceTree = "<group>"; };
 		CA2533FB24CE102B0070CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC7D57024CE1F5B00B3FBEE /* GrowEdibleMushrooms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrowEdibleMushrooms.entitlements; sourceTree = "<group>"; };
+		CAC7D57324CE203400B3FBEE /* GrowManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowManagementView.swift; sourceTree = "<group>"; };
+		CAC7D57524CE20CD00B3FBEE /* Grow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grow.swift; sourceTree = "<group>"; };
+		CAE5247D24CE288D0087D228 /* GrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowView.swift; sourceTree = "<group>"; };
+		CAE5248124CE29BC0087D228 /* TutorialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsView.swift; sourceTree = "<group>"; };
+		CAE5248324CE29CA0087D228 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
+		CAE5248724CE4C480087D228 /* GrowStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowStore.swift; sourceTree = "<group>"; };
+		CAE5248924CE4DA40087D228 /* GrowEdibleMushroomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowEdibleMushroomsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +116,19 @@
 		CA2533D324CE10290070CD15 /* GrowEdibleMushrooms */ = {
 			isa = PBXGroup;
 			children = (
+				CAC7D57124CE1FE000B3FBEE /* Home */,
+				CAC7D57224CE200500B3FBEE /* Grows */,
+				CAE5247F24CE297E0087D228 /* Tutorials */,
+				CAE5248024CE298B0087D228 /* Equipment */,
+				CAC7D57024CE1F5B00B3FBEE /* GrowEdibleMushrooms.entitlements */,
 				CA2533D424CE10290070CD15 /* AppDelegate.swift */,
 				CA2533D624CE10290070CD15 /* SceneDelegate.swift */,
-				CA2533DB24CE10290070CD15 /* ContentView.swift */,
 				CA2533DD24CE102B0070CD15 /* Assets.xcassets */,
 				CA2533E224CE102B0070CD15 /* LaunchScreen.storyboard */,
 				CA2533E524CE102B0070CD15 /* Info.plist */,
 				CA2533D824CE10290070CD15 /* GrowEdibleMushrooms.xcdatamodeld */,
 				CA2533DF24CE102B0070CD15 /* Preview Content */,
+				CAE5248924CE4DA40087D228 /* GrowEdibleMushroomsApp.swift */,
 			);
 			path = GrowEdibleMushrooms;
 			sourceTree = "<group>";
@@ -137,6 +157,41 @@
 				CA2533FB24CE102B0070CD15 /* Info.plist */,
 			);
 			path = GrowEdibleMushroomsUITests;
+			sourceTree = "<group>";
+		};
+		CAC7D57124CE1FE000B3FBEE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA2533DB24CE10290070CD15 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CAC7D57224CE200500B3FBEE /* Grows */ = {
+			isa = PBXGroup;
+			children = (
+				CAC7D57324CE203400B3FBEE /* GrowManagementView.swift */,
+				CAE5247D24CE288D0087D228 /* GrowView.swift */,
+				CAC7D57524CE20CD00B3FBEE /* Grow.swift */,
+				CAE5248724CE4C480087D228 /* GrowStore.swift */,
+			);
+			path = Grows;
+			sourceTree = "<group>";
+		};
+		CAE5247F24CE297E0087D228 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5248124CE29BC0087D228 /* TutorialsView.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		CAE5248024CE298B0087D228 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5248324CE29CA0087D228 /* EquipmentView.swift */,
+			);
+			path = Equipment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +325,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE5248824CE4C480087D228 /* GrowStore.swift in Sources */,
+				CAE5248424CE29CA0087D228 /* EquipmentView.swift in Sources */,
+				CAE5248A24CE4DA40087D228 /* GrowEdibleMushroomsApp.swift in Sources */,
+				CAE5248224CE29BC0087D228 /* TutorialsView.swift in Sources */,
+				CAE5247E24CE288D0087D228 /* GrowView.swift in Sources */,
+				CAC7D57624CE20CD00B3FBEE /* Grow.swift in Sources */,
 				CA2533D524CE10290070CD15 /* AppDelegate.swift in Sources */,
 				CA2533D724CE10290070CD15 /* SceneDelegate.swift in Sources */,
-				CA2533DC24CE10290070CD15 /* ContentView.swift in Sources */,
+				CAC7D57424CE203400B3FBEE /* GrowManagementView.swift in Sources */,
+				CA2533DC24CE10290070CD15 /* HomeView.swift in Sources */,
 				CA2533DA24CE10290070CD15 /* GrowEdibleMushrooms.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrowEdibleMushrooms/GrowEdibleMushrooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GrowEdibleMushrooms/Preview Content\"";
 				DEVELOPMENT_TEAM = CBZ6Z47N7R;
@@ -449,6 +512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monotubs.GrowEdibleMushrooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrowEdibleMushrooms/GrowEdibleMushrooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GrowEdibleMushrooms/Preview Content\"";
 				DEVELOPMENT_TEAM = CBZ6Z47N7R;
@@ -469,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monotubs.GrowEdibleMushrooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
